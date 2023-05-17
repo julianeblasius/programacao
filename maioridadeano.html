@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<script>
+    const idade = Number(prompt('Qual é o seu ano de nascimento'))
+    const data = new Date()
+    const anoAtual = new Date().getFullYear();
+    if (new Date().getFullYear() - idade >= 18) {
+        alert(`Você é maior de idade`)
+    }
+    else{
+        alert(`Você é menor de idade`)
+    }
+</script>

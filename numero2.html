@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    const numero1 = Number(prompt('Informe um número').replace(',','.'))
+    const numero2 = Number(prompt('Informe um número').replace(',','.'))
+    const numero3 = Number(prompt('Informe outro número').replace(',','.'))
+    if (numero3 < numero1 > numero2) {
+        alert(`${numero1.toFixed(2).replace('.',',')} é maior`)
+    }
+    else if (numero3 < numero2 > numero1) {
+        alert(`${numero2.toFixed(2).replace('.',',')} é maior`)
+    }
+    else{
+        alert(`${numero3.toFixed(2).replace('.',',')} é maior`)
+
+    }
+</script>
+
+
+
